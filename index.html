@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <title></title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+   <script src='main.js'></script>
+
+   
+</head>
+<body>
+   <div id="nav_contaner">
+      <div id="logo"><h1>Best game</h1></div>
+      <div id="nav_mid"></div>
+      <nav>
+         <a href="#about" class="menu_left"> About  </a> 
+         <a href="#contact" class="menu_left"> Contact </a> 
+         <a href="#helpme" class="menu_left"> Help me  </a> 
+
+      </nav>
+   </div>
+   <input type="checkbox" id="active">
+          <label for="active" class="menu-btn"><span></span></label>
+          <label for="active" class="close"></label>
+        <div class="wrapper">
+            <ul>
+              <li><a href="lol.html">LOL</a></li>
+              <li><a href="csgo.html">CSGO</a></li>
+              <li><a href="dota2.html">Dota2</a></li>
+              <li><a href="minecraft.html">Minecraft</a></li>
+              <li><a href="gta5.html">GTA5</a></li>
+            </ul>
+        </div>
+   <div id="nav_picture">
+      <div><h1>Game Of All Time</h1></div>
+      
+      <button type="button"  data-toggle="modal" data-target="#myModal" id="navbot">
+         Sign In 
+      </button>
+
+      <button type="button"  data-toggle="modal" data-target="#myModal-1" id="navbot">
+         Sign Up 
+      </button>
+      
+      <div class="modal" id="myModal">
+         <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Sign In</h4>
+               </div>
+      
+              <div class="modal-body">
+                  <label>Email : </label>
+                  <input type="type"><br>
+                  <br>
+                  <label>Password: </label>
+                  <input type="password"> 
+
+              </div>
+      
+              <div class="modal-footer">
+                 <button type="button" class="btn btn-confirm" data-dismiss="modal">Sign In</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="modal" id="myModal-1">
+         <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Sign Up</h4>
+               </div>
+      
+              <div class="modal-body">
+                  <label>Email : </label>
+                  <input type="type">
+                  <br>
+                  <label>Password: </label>
+                  <input type="password">
+                  <br>
+                  <label>Confirm Password: </label>
+                  <input type="password">  
+
+              </div>
+      
+              <div class="modal-footer">
+                 <button type="button" class="btn btn-confirm" data-dismiss="modal">Sign In</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+   <!-- //body -->
+   <div id="body">
+      <div id="about_container">
+        <b id="about" >About Games</b>  
+      </div>
+  
+      <div id="topgame_container">
+        <h2> Top game of all time </h2>
+        <p id="Rated"> Rated by players and fans </p>
+      </div>
+  
+        <div id="all">
+  
+            <div id="game_container">
+              <div id="title_cover">
+                <h1 id="game_title"> League of Legend </h1>
+                <hr id="newline">
+              </div>
+                <img src="https://www.leagueoflegends.com/static/open-graph-2e582ae9fae8b0b396ca46ff21fd47a8.jpg" alt="Photo" id="imgg">
+                <div id="description">
+                    League of Legends (LOL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, the game has been free-to-play and is monetized through purchasable character customization.
+                    <br>
+                    
+                    <br>
+                    
+                    <div><b>Critic Score: </b>  84/100</div>
+                    <div><b>User Score: </b>  7/10</div> 
+                    <div><b>Platforms: </b> PC, Mobile</div> 
+                        
+                    <p id="trailer"><b>League Of Legend Official Trailer</b></p>
+                    <div id="videotrailer">
+                        <video width="450" height="450" controls  id="vidtrailer">
+                            <source src="assets/The Hunt _ PROJECT_ Hunters Animated Trailer - League of Legends.mp4" type="video/mp4">
+                        </video>
+                    </div>
+  
+                </div>
+            </div>
+            <div id="game_container">
+              <div id="title_cover">
+                <h1 id="game_title">  Counter-Strike: Global Offensive </h1>
+                <hr id="newline">
+              </div>
+                <div id="description">
+                    Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series. Developed for over two years, Global Offensive was released for Windows, macOS, Xbox 360, and PlayStation 3 in August 2012, and for Linux in 2014. Valve still regularly updates the game, both with smaller balancing patches and larger content additions.
+                    <br>
+                    <br>
+  
+                    <div><b>Critic Score: </b>  83/100</div>
+                    <div><b>User Score: </b>  7.5/10</div> 
+                    <div><b>Platforms: </b> PC</div> 
+                        
+                    <p id="trailer"><b>CSGO Official Trailer</b></p>
+                    <div id="videotrailer">
+                        <video width="450" height="450" controls  id="vidtrailer">
+                            <source src="assets/COUNTER STRIKE ONLINE 2 TRAILER 2021 (HD).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+  
+            <img src="assets/csgo.jpg"  alt="Photo" id="imgg">            
+          </div>
+          <div id="game_container">
+            <div id="title_cover">
+                <h1 id="game_title"> Dota 2 </h1>
+                <hr id="newline">
+            </div>
+            <img src="assets/dota2.jpg"  alt="Photo" id="imgg">
+            <div id="description">
+                Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve. The game is a sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. 
+                <br>
+                
+                <br>
+  
+                <div><b>Critic Score: </b>  90/100</div>
+                <div><b>User Score: </b>  7.5/10</div> 
+                <div><b>Platforms: </b> PC</div> 
+  
+                <p id="trailer"><b>`Dota 2 Official Trailer</b></p>
+                <div id="videotrailer">
+                    <video width="450" height="450" controls  id="vidtrailer">
+                        <source src="assets/Dota 2 Gamescom Trailer.mp4" type="video/mp4"> 
+                    </video>
+                </div>
+              
+            </div>
+          </div>    
+          
+  
+          
+          <div id="game_container">
+          <div id="title_cover">
+              <h1 id="game_title">  Minecraft </h1>
+              <hr id="newline">
+            </div>
+            <div id="description">
+                Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios. The game was created by Markus "Notch" Persson in the Java programming language. It was first made public in May 2009 before fully releasing in November 2011, with Jens Bergensten then taking over development.Minecraft has since been ported to several other platforms and is the best-selling video game of all time
+                <br>
+              
+                
+                <br>
+                <div><b>Critic Score: </b>  90/100</div>
+                <div><b>User Score: </b>  8/10</div> 
+                <div><b>Platforms: </b> PC, Mobile, X-Box, PS4</div> 
+                        
+                <p id="trailer"><b>Minecraft Official Trailer</b></p>
+                <div id="videotrailer">
+                    <video width="450" height="450" controls  id="vidtrailer">
+                        <source src="assets/Official Minecraft Trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+  
+            </div>
+            <img src="assets/minecraft.jpg"  alt="Photo" id="imgg">
+          </div>
+          
+  
+          
+          <div id="game_container">
+            <div id="title_cover">
+              <h1 id="game_title">  Grand Theft Auto V (GTA5) </h1>
+              <hr id="newline">
+            </div>
+  
+            <img src="assets/gta5.jpg"  alt="Photo" id="imgg">
+  
+            <div id="description">
+                Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth installment overall. The game is played from either a third-person or first-person perspective, and its world is navigated on foot and by vehicle. 
+                <br>
+                
+                <br>
+                <div><b>Critic Score: </b>  97/100</div>
+                <div><b>User Score: </b>  8.3/10</div> 
+                <div><b>Platforms: </b> PC, X-Box, PS4, PS5</div> 
+                        
+                <p id="trailer"><b>GTA V Official Trailer</b></p>
+                <div id="videotrailer">
+                    <video width="450" height="450" controls  id="vidtrailer">
+                        <source src="assets/Grand Theft Auto V Trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+          </div>
+        </div>
+   </div>
+
+   <div id="contact">
+      <div id="contact_title">
+         My Contact
+      </div>
+      <div id="space_contact"></div>
+      <div id="gmail">
+         <div>
+            <img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/>            
+            <p id="first-contact">Email</p>
+            <p> viettung.do@outlook.com</a> </p>
+         </div>
+      </div>
+      <div id="space_contact"></div>
+      <div id="space_contact"></div>
+      <div id="phonenumber">
+         <img src="https://img.icons8.com/clouds/100/000000/apple-phone.png"/>
+         <p id="first-contact">My Phone Number</p>
+         <p>(+84)983211929</a></p>
+      </div>
+      <div id="space_contact"></div>
+      <div id="space_contact"></div>
+
+      <div id="address">
+         <div>
+            <img src="https://img.icons8.com/clouds/100/000000/address.png"/>
+            <p id="first-contact" >My Address</p>
+            <p>Hai Ba Trung, Hanoi, VietNam</p>
+         </div>
+      </div>
+      <div id="space_contact"></div>
+
+
+   </div>
+   <footer class="site-footer">
+         <div id="helpme">   
+         
+          <div class="container">
+             <div class="row">
+               <div class="col-sm-12 col-md-6">
+                <h6>Help me </h6>
+                <p class="text-justify">If you have any concern about the copyright or anything else around this website, please mail me through my contact in the link below. You can also contact me if there was a bugs or any related problems.</p>
+                <p class="text-justify"> <b>Website was made for midterm project propose </b></p>
+                </div>          
+             </div>    
+           </div>
+     
+                 
+           <div class="container">
+             <div class="row">
+               <div class="col-md-8 col-sm-6 col-xs-12">
+                 <p class="copyright-text">Copyright &copy; By Tung Do  
+                 </p>
+               </div>
+     
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                 <ul class="social-icons">
+                   <li><a class="facebook" href="https://www.facebook.com/tung.dv.9"><i class="fa fa-facebook"></i></a></li>
+                   <li><a class="instagram" href="https://www.instagram.com/_tungdo404_/"><i class="fa fa-instagram"></i></a></li>
+                   <li><a class="pinterest" href="https://www.pinterest.com/sirdotung2002/_saved/"><i class="fa fa-pinterest"></i></a></li>     
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+   </footer>
+</body>
+</html>
